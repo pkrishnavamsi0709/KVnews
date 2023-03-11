@@ -39,7 +39,7 @@ const News = (props) => {
     props.SetProgress(100);
   }
   useEffect(()=>{
-    document.title = `${capitlizeText(props.category)} - Vamsi's News`;
+    document.title = `${capitlizeText(props.category)} - KV's News`;
     updateNews();
   },[])
 
